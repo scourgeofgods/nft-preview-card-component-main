@@ -146,3 +146,25 @@ ul li:last-child {
   font-weight: var(--fw-base);
   margin-left: 0.5rem;
 }
+
+@media (min-width: 576px) {
+  .card__title {
+    margin-bottom: 2rem;
+  }
+  .card__details {
+    font-size: 1.8rem;
+    margin-bottom: 2.6rem;
+    line-height: 2.4rem;
+  }
+  ul {
+    margin-bottom: 2.6rem;
+  }
+  .card__creator {
+    gap: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .card__creator--img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
