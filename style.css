@@ -100,10 +100,12 @@ ul {
   margin-bottom: 2.4rem;
 }
 ul li {
+  display: flex;
+  align-items: center;
   font-size: 1.7rem;
   font-weight: var(--fw-base);
   line-height: 2.1rem;
-  column-gap: 0.5rem;
+  column-gap: 0.8rem;
 }
 
 ul li:first-child {
